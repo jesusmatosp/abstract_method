@@ -1,69 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.0" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="pe.edu.unmsm.factorymethod.logger.DataBaseLogger" project="parcial-pregunta-02" 
-    file="/parcial-pregunta-02/src/pe/edu/unmsm/factorymethod/logger/DataBaseLogger.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="175" y="212"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <interface id="2" language="java" name="pe.edu.unmsm.factorymethod.logger.Logger" project="parcial-pregunta-02" 
-    file="/parcial-pregunta-02/src/pe/edu/unmsm/factorymethod/logger/Logger.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="438" y="381"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </interface>  
-  <class id="3" language="java" name="pe.edu.unmsm.factorymethod.logger.SocketLogger" project="parcial-pregunta-02" 
-    file="/parcial-pregunta-02/src/pe/edu/unmsm/factorymethod/logger/SocketLogger.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="428" y="82"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="4" language="java" name="pe.edu.unmsm.factorymethod.logger.LoggerFactory" project="parcial-pregunta-02" 
+  <class id="1" language="java" name="pe.edu.unmsm.factorymethod.logger.LoggerFactory" project="parcial-pregunta-02" 
     file="/parcial-pregunta-02/src/pe/edu/unmsm/factorymethod/logger/LoggerFactory.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="951" y="131"/>    
+    <position height="-1" width="-1" x="1184" y="322"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="pe.edu.unmsm.factorymethod.logger.FileLogger" project="parcial-pregunta-02" 
-    file="/parcial-pregunta-02/src/pe/edu/unmsm/factorymethod/logger/FileLogger.java" binary="false" 
+  <class id="2" language="java" name="pe.edu.unmsm.factorymethod.logger.SocketStream" project="parcial-pregunta-02" 
+    file="/parcial-pregunta-02/src/pe/edu/unmsm/factorymethod/logger/SocketStream.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="677" y="174"/>    
+    <position height="-1" width="-1" x="1420" y="327"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <interface id="6" language="java" name="pe.edu.unmsm.factorymethod.logger.BaseStream" project="parcial-pregunta-02" 
+  <interface id="3" language="java" name="pe.edu.unmsm.factorymethod.logger.BaseStream" project="parcial-pregunta-02" 
     file="/parcial-pregunta-02/src/pe/edu/unmsm/factorymethod/logger/BaseStream.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="882" y="515"/>    
+    <position height="-1" width="-1" x="936" y="660"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <class id="7" language="java" name="pe.edu.unmsm.factorymethod.logger.DataBaseStream" project="parcial-pregunta-02" 
-    file="/parcial-pregunta-02/src/pe/edu/unmsm/factorymethod/logger/DataBaseStream.java" binary="false" 
+  <interface id="4" language="java" name="pe.edu.unmsm.factorymethod.logger.Logger" project="parcial-pregunta-02" 
+    file="/parcial-pregunta-02/src/pe/edu/unmsm/factorymethod/logger/Logger.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="996" y="16"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="5" language="java" name="pe.edu.unmsm.factorymethod.logger.SingletonStream" project="parcial-pregunta-02" 
+    file="/parcial-pregunta-02/src/pe/edu/unmsm/factorymethod/logger/SingletonStream.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1167" y="554"/>    
+    <position height="-1" width="-1" x="619" y="485"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="pe.edu.unmsm.factorymethod.logger.DataBaseLogger" project="parcial-pregunta-02" 
+    file="/parcial-pregunta-02/src/pe/edu/unmsm/factorymethod/logger/DataBaseLogger.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="715" y="136"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="pe.edu.unmsm.factorymethod.logger.SocketLogger" project="parcial-pregunta-02" 
+    file="/parcial-pregunta-02/src/pe/edu/unmsm/factorymethod/logger/SocketLogger.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1212" y="149"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -73,65 +73,105 @@
   <class id="8" language="java" name="pe.edu.unmsm.factorymethod.logger.FileStream" project="parcial-pregunta-02" 
     file="/parcial-pregunta-02/src/pe/edu/unmsm/factorymethod/logger/FileStream.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="946" y="677"/>    
+    <position height="-1" width="-1" x="946" y="344"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="9" language="java" name="pe.edu.unmsm.factorymethod.logger.SocketStream" project="parcial-pregunta-02" 
-    file="/parcial-pregunta-02/src/pe/edu/unmsm/factorymethod/logger/SocketStream.java" binary="false" 
+  <class id="9" language="java" name="pe.edu.unmsm.factorymethod.logger.FileLogger" project="parcial-pregunta-02" 
+    file="/parcial-pregunta-02/src/pe/edu/unmsm/factorymethod/logger/FileLogger.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="679" y="677"/>    
+    <position height="-1" width="-1" x="960" y="149"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="10" language="java" name="pe.edu.unmsm.factorymethod.logger.SingletonStream" project="parcial-pregunta-02" 
-    file="/parcial-pregunta-02/src/pe/edu/unmsm/factorymethod/logger/SingletonStream.java" binary="false" 
+  <class id="10" language="java" name="pe.edu.unmsm.factorymethod.logger.DataBaseStream" project="parcial-pregunta-02" 
+    file="/parcial-pregunta-02/src/pe/edu/unmsm/factorymethod/logger/DataBaseStream.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="904" y="338"/>    
+    <position height="-1" width="-1" x="703" y="341"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <realization id="11">    
-    <end type="SOURCE" refId="9"/>    
-    <end type="TARGET" refId="6"/>  
+  <association id="11">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="12" name="socketStream"/>      
+      <multiplicity id="13" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="14">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="3"/>  
   </realization>  
-  <association id="12">    
-    <end type="SOURCE" refId="10" navigable="false">      
-      <attribute id="13" name="instance"/>      
-      <multiplicity id="14" minimum="0" maximum="1"/>    
+  <realization id="15">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <association id="16">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="17" name="baseStream"/>      
+      <multiplicity id="18" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="19">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <association id="20">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="21" name="baseStream"/>      
+      <multiplicity id="22" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="23">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <realization id="24">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <association id="25">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="26" name="fileStream"/>      
+      <multiplicity id="27" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="28">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="29" name="dataBaseStream"/>      
+      <multiplicity id="30" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="10" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <realization id="15">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="2"/>  
-  </realization>  
-  <realization id="16">    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="2"/>  
-  </realization>  
-  <realization id="17">    
+  <realization id="31">    
     <end type="SOURCE" refId="8"/>    
-    <end type="TARGET" refId="6"/>  
+    <end type="TARGET" refId="3"/>  
   </realization>  
-  <realization id="18">    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="2"/>  
-  </realization>  
-  <realization id="19">    
-    <end type="SOURCE" refId="7"/>    
-    <end type="TARGET" refId="6"/>  
-  </realization>  
+  <association id="32">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="33" name="instance"/>      
+      <multiplicity id="34" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    
